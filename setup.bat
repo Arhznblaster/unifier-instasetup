@@ -51,7 +51,7 @@ set "main=%USERPROFILE%\unifierbot"
 if not exist "%main%\*" (
     echo %<%%Gray%The unifierbot preset directory has no files in it!%>%
     pause
-    goto :mainMenu
+    exit
 )
 
 echo Removing installation...
